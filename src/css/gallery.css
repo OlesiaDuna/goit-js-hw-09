@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+}
+body .sl-overlay {
+  background-color: rgba(45, 47, 66, 0.8);
+}
+body .sl-counter {
+  color: #fff !important;
+}

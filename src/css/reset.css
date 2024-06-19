@@ -22,12 +22,14 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  outline: transparent;
 }
 
 button {
   cursor: pointer;
+  border: none;
+  outline: transparent;
 }
-
 img {
   display: block;
   max-width: 100%;
